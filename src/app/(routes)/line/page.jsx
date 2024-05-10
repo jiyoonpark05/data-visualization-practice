@@ -1,10 +1,11 @@
 import css from "./page.module.css";
-const force = () => {
+
+const Line = () => {
   return (
     <div className={css.container}>
-      <div className={css.wrapper}></div>
+      <div className={css.wrapper}>?</div>
     </div>
   );
 };
 
-export default force;
+export default Line;
